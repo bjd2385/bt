@@ -7,7 +7,7 @@ structure into two classes: one for the nodes, and one for the actual BT.
 
 from typing import Union, Tuple
 
-__all__ = ['BT', 'Node']
+__all__ = ['BT']
 
 
 class Node:
