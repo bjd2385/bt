@@ -5,13 +5,13 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='Binary Tree',
+    name='Simple Binary Tree Implementation',
     version='1.1',
     description='Simple binary tree implementation',
     author='Brandon Doyle',
     author_email='bjd2385@aperiodicity.com',
     license='MIT',
-    packages=find_packages(),
+    modules=['bt.bt'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest']
 )
